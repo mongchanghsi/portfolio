@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import { Helmet } from 'react-helmet';
+import HomeImage from './img/homeimage2.png';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <title> Eric Mong | Portfolio </title>
+      </Helmet>
+      <Navbar/>
+      <div className="page-space">
+        <div className="wrapper">
+          <div className="row">
+            <img src={HomeImage} alt="homeimage" className="home-resize center"/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
