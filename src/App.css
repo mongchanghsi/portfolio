@@ -63,10 +63,6 @@ html, body{
   margin-right: auto;
 }
 
-.home-resize {
-  width: 70vw;
-}
-
 .remove-border {
   border: 0;
 }
@@ -127,6 +123,11 @@ p {
 
 
 /* Mobile CSS */
+.home-resize {
+  height: auto;
+  width: 70vw;
+}
+
 .page-space {
   margin-left: 5vw;
   margin-right: 5vw;
@@ -275,6 +276,10 @@ p {
   .hr-resize {
     width: 65vw;
     background-color: #c8c8c8;
+  }
+
+  .home-resize {
+    width: 50vw;
   }
 
   .title-resize {
