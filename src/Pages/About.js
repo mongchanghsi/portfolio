@@ -45,7 +45,7 @@ class About extends Component {
               <div className="col-lg-6">
                 <div className="row">
                   <div className="center">
-                    <a href="" target="_blank">
+                    <a href="https://github.com/mongchanghsi" target="_blank">
                       <button className="link-button">
                         <img src={Githubtitle} className="link-button-logo"/>
                       </button>
@@ -54,10 +54,12 @@ class About extends Component {
                 </div>
               </div>
 
+
+
               <div className="col-lg-6">
                 <div className="row">
                   <div className="center">
-                    <a href="" target="_blank">
+                    <a href="https://drive.google.com/open?id=1EY3NgnselwjrctviI6snr4Q8RppGlown" target="_blank">
                       <button className="link-button">
                         <img src={CVtitle} className="link-button-logo"/>
                       </button>

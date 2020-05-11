@@ -64,7 +64,7 @@ html, body{
 }
 
 .home-resize {
-  width: 70%;
+  width: 70vw;
 }
 
 .remove-border {
@@ -164,6 +164,7 @@ p {
 }
 
 .image-resize {
+  height: 20vw;
   width: 20vw;
 }
 
@@ -238,6 +239,7 @@ p {
   }
 
   .image-resize {
+    height: 10vw;
     width: 10vw;
   }
 
@@ -306,6 +308,7 @@ p {
   }
 
   .image-resize {
+    height: 7vw;
     width: 7vw;
   }
 
