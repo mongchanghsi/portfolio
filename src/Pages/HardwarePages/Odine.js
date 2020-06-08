@@ -21,7 +21,7 @@ class Odine extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> "O" Dine </b></p>
+                <p className='product-title'> "O" Dine </p>
                 <hr/>
                 <p className="justify">'O' Dine aims to solves the problem of clearing leftover food and cutlery left on the table with simple conveyor system underneath the flooring.</p>
                 <p className="justify">The insights from this project is that there are various concerns raised regarding the maintenance of the system and potential growing of germs and smell from the conveyor belt.</p>

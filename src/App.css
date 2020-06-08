@@ -131,7 +131,11 @@ body {
 .title {
   font-family: 'Montserrat', sans-serif;
   margin-top: 18vh;
+}
 
+.product-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
 }
 
 /* Mobile CSS */

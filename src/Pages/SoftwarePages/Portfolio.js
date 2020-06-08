@@ -21,7 +21,7 @@ class Portfolio extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> Portfolio Website </b></p>
+                <p className='product-title'> Portfolio Website </p>
                 <hr/>
                 <p className="justify"> I have developed this portfolio website using HTML, CSS, Javaascript with ReactJS framework. This portfolio is responsive as well, and can be viewed at all devices.</p>
 

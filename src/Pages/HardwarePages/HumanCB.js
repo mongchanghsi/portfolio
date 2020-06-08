@@ -29,7 +29,7 @@ class HumanCB extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> Human Cardboard </b></p>
+                <p className='product-title'> Human Cardboard </p>
                 <hr/>
                 <p className="justify">Human-sized Cardboard Model with movable joints. This was done along side with LambdaRoll as part of the submission.</p>
               </div>

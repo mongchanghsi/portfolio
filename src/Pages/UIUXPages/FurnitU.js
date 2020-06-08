@@ -31,7 +31,7 @@ class FurnitU extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> FurnitU </b></p>
+                <p className='product-title'> FurnitU </p>
                 <hr/>
                 <p className="justify"> The problem that i'm tackling is health and well-being of the students studying in University of Twente as part of a Design Challenge.  </p>
                 <p className="justify"> My team conducted interviews in the campus and surprisingly found that students burnt furniture when they are due to move out as it is a hassle to sell it off (all the logistic procedures issues). Thus, FurnitU. </p>

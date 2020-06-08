@@ -33,7 +33,7 @@ class Portfolio extends Component {
                       </div>
 
                       <div className="row">
-                        <p className="center"> Hardware Projects </p>
+                        <p className="center padding-top"> Hardware Projects </p>
                       </div>
                     </Link>
                   </div>
@@ -49,7 +49,7 @@ class Portfolio extends Component {
                       </div>
 
                       <div className="row">
-                        <p className="center"> Software Projects </p>
+                        <p className="center padding-top"> Software Projects </p>
                       </div>
                     </Link>
                   </div>
@@ -64,7 +64,7 @@ class Portfolio extends Component {
                       </div>
 
                       <div className="row">
-                        <p className="center"> UI/UX Projects </p>
+                        <p className="center padding-top"> UI/UX Projects </p>
                       </div>
                     </Link>
                   </div>

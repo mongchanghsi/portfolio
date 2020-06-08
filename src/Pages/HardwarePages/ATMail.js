@@ -29,7 +29,7 @@ class ATMail extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> ATMail </b></p>
+                <p className='product-title'> ATMail </p>
                 <hr/>
                 <p className="justify"> ATMail aims to provide an efficient last-mile delivery for mails, flats and small packets delivered specifically by SingPost through the use of automation and IoT Technology. It benefits both the Post-man and any household individuals.</p>
                 <p className="justify"> For Post-man, it is a one-stop to delivery both mails, flats and small packets instead of them having going to each individuals household to deliver the packets. An automated sorter is built-in to sort the mails and flats for the Post-man.</p>

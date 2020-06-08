@@ -36,7 +36,7 @@ class Attendy extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> Attendy </b></p>
+                <p className='product-title'> Attendy </p>
                 <hr/>
                 <p className="justify"> Attendy is a web-application that allows the Professors or Teaching Assistant to take attendance of a class through scanning the student's card using Optical Character Recognition (OCR) and subsequently generate a CSV file that contains the entire class attendance. </p>
                 <p className="justify"> I mainly spearheaded the Front-end Development, User Interface and User Experience. I developed the web-application using ReactJS and also integrated the relevant Back-end APIs developed by my teammate. </p>

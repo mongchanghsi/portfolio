@@ -24,7 +24,7 @@ class Lambdaroll extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> LambdaRoll </b></p>
+                <p className='product-title'> LambdaRoll </p>
                 <hr/>
                 <p className="justify">The problem that I'm tackling is the manpower crunch in the eldercare sector where there is a rise in the ageing population and more of such individual are staying in nursing home. As these individuals are mostly require attention when moving them to places such as dining area or the washroom, nurses are required to assist in the transfer of these individuals from their beds to their wheelchair. These transfers are also dangerous as elderly are prone to injuries due to fall and nurses are prone to injuries due to wrong position of transfer.</p>
                 <p className="justify">LambdaRoll aims to ease the transfer of the wheelchair bounded individuals between surfaces.</p>

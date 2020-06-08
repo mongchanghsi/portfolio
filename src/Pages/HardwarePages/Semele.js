@@ -23,7 +23,7 @@ class Semele extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p><b> Semelē </b></p>
+                <p className='product-title'> Semelē </p>
                 <hr/>
                 <p className="justify">Semelē is an automated gardening system that aims to help the users to water the plants at a regular interval or whenever the plants require watering and provide specific lights to promote growth of the plants.</p>
                 <p className="justify">Semelē was coded in Python and it comes with Relay, Hydrometer, YF-S201 Flow Meter and Light Sensor.</p>
