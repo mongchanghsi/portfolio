@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap');
+
 .App {
   text-align: center;
 }
@@ -121,6 +124,15 @@ p {
   transition-duration: 0.7s;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 18vh;
+
+}
 
 /* Mobile CSS */
 .home-resize {
@@ -203,7 +215,15 @@ p {
   transition-duration: 0.7s;
 } */
 
+.title {
+  font-size: 10vw;
+}
+
 @media only screen and (min-width: 768px){
+  .title {
+    font-size: 8vw;
+  }
+
   .page-space {
     margin-left: 15vw;
     margin-right: 15vw;
@@ -264,6 +284,10 @@ p {
 }
 
 @media only screen and (min-width: 1024px){
+  .title {
+    font-size: 5vw;
+  }
+
   .page-space {
     margin-left: 20vw;
     margin-right: 20vw;

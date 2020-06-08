@@ -15,7 +15,10 @@ function App() {
       <div className="page-space">
         <div className="wrapper">
           <div className="row">
-            <img src={HomeImage} alt="homeimage" className="home-resize center"/>
+            <div className='center'>
+              <h1 className='title'> Hi! I'm Eric Mong! </h1>
+              <h5> Product Designer | Front-end Developer </h5>
+            </div>
           </div>
         </div>
       </div>
