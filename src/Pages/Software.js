@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import AttendyPF from '../img/attendyimg/startscan.png';
 import PortfolioPF from '../img/portfolioimg/websiteimg.png';
 import DartsPF from '../img/dartsimg/Image1.png';
+import TicTacToePF from '../img/tictactoeimg/tictactoe1.png';
+import TodoPF from '../img/todoimg/todo1.png';
 
 class Software extends Component {
   render(){
@@ -60,7 +62,7 @@ class Software extends Component {
                 <Link to="/portfolio/software/darts" className="link-deco">
                   <div className="row">
                     <div className="center web-image">
-                      <img src={DartsPF} alt="portfolio" className="wf"/>
+                      <img src={DartsPF} alt="darts" className="wf"/>
                     </div>
                   </div>
 
@@ -71,8 +73,41 @@ class Software extends Component {
                   </div>
                 </Link>
               </div>
-            </div>
 
+              <div className="col-md-6 col-lg-4">
+                <Link to="/portfolio/software/tictactoe" className="link-deco">
+                  <div className="row">
+                    <div className="center web-image">
+                      <img src={TicTacToePF} alt="tictactoe" className="wf"/>
+                    </div>
+                  </div>
+
+                  <div className="row">
+                    <div className="center">
+                      <p> Tic Tac Toe </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="col-md-6 col-lg-4">
+                <Link to="/portfolio/software/projecttodo" className="link-deco">
+                  <div className="row">
+                    <div className="center web-image">
+                      <img src={TodoPF} alt="todo" className="wf"/>
+                    </div>
+                  </div>
+
+                  <div className="row">
+                    <div className="center">
+                      <p> Project Management To-Do </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+
+            </div>
           </div>
         </div>
       </div>

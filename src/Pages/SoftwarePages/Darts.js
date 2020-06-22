@@ -19,7 +19,7 @@ class Darts extends Component {
         </Helmet>
         <Navbar/>
         <div className="page-space">
-          <div classname="wrapper">
+          <div className="wrapper">
             <div className="row">
               <div className="order-2 order-md-1 order-lg-1 col-md-7 col-lg-7">
                 <img src={Image1} className="wf2 center"/>
@@ -31,7 +31,7 @@ class Darts extends Component {
               </div>
 
               <div className="order-1 order-md-2 order-lg-2 col-md-5 col-lg-5">
-                <p className='product-title'> Darts Score Tracking Web-app  </p>
+                <p className='product-title'> Darts Score Tracking Web-app </p>
                 <hr/>
                 <p className="justify"> What inspired me to do this web-application is that I personally own a competitive dart board, where unlike the electronics commonly seen in pub and bars, the electronic dartboard helps to keep track of the scorer. Hence whenever I invite my friends over to have a game or two, or when I'm training, I have a difficult time tracking the score of the game. </p>
                 <p className="justify"> I developed this web-application as part of training my ReactJS skills and to strengthen my basics. Please feel free to use the web-application and do look forward for more updates on better UI and more game modes! </p>

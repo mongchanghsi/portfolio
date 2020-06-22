@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../../Components/Navbar';
@@ -22,7 +23,7 @@ class Attendy extends Component {
         </Helmet>
         <Navbar/>
         <div className="page-space">
-          <div classname="wrapper">
+          <div className="wrapper">
             <div className="row">
               <div className="order-2 order-md-1 order-lg-1 col-md-7 col-lg-7">
                 <img src={Attendy1} className="wf2 center"/>
@@ -70,8 +71,6 @@ class Attendy extends Component {
                     </a>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
