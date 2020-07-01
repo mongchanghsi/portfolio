@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import AttendyPF from '../img/attendyimg/startscan.png';
 import PortfolioPF from '../img/portfolioimg/websiteimg.png';
 import DartsPF from '../img/dartsimg/Image1.png';
-import TicTacToePF from '../img/tictactoeimg/tictactoe1.png';
 import TodoPF from '../img/todoimg/todo1.png';
 
 class Software extends Component {

@@ -22,7 +22,6 @@ import Semele from './Pages/HardwarePages/Semele';
 import Attendy from './Pages/SoftwarePages/Attendy';
 import Darts from './Pages/SoftwarePages/Darts';
 import ProjectTodo from './Pages/SoftwarePages/ProjectTodo';
-import TicTacToe from './Pages/SoftwarePages/TicTacToe';
 import FurnitU from './Pages/UIUXPages/FurnitU';
 import PortfolioDev from './Pages/SoftwarePages/Portfolio';
 
@@ -48,7 +47,6 @@ ReactDOM.render(
       <Route exact path="/portfolio/software/portfoliodev" component={PortfolioDev}/>
       <Route exact path="/portfolio/software/darts" component={Darts}/>
       <Route exact path="/portfolio/software/projecttodo" component={ProjectTodo}/>
-      <Route exact path="/portfolio/software/tictactoe" component={TicTacToe}/>
       <Route exact path="/portfolio/uiux/furnitu" component={FurnitU}/>
       <Route exact path="/contact" component={Contact}/>
     </Router>
