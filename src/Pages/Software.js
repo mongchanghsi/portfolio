@@ -75,22 +75,6 @@ class Software extends Component {
               </div>
 
               <div className="col-md-6 col-lg-4">
-                <Link to="/portfolio/software/tictactoe" className="link-deco">
-                  <div className="row">
-                    <div className="center web-image">
-                      <img src={TicTacToePF} alt="tictactoe" className="wf"/>
-                    </div>
-                  </div>
-
-                  <div className="row">
-                    <div className="center">
-                      <p> Tic Tac Toe </p>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-
-              <div className="col-md-6 col-lg-4">
                 <Link to="/portfolio/software/projecttodo" className="link-deco">
                   <div className="row">
                     <div className="center web-image">
